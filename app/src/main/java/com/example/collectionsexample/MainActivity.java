@@ -36,4 +36,10 @@ public class MainActivity extends AppCompatActivity {
         }
         return mapCats;
     }
+
+    private void print(ArrayList<Cat> cats){
+        for (Cat cat: cats){
+            System.out.println("Cat name: " +cat.getName());
+        }
+    }
 }
